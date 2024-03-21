@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply py-3 px-8 bg-white text-colorPrimary rounded-md shadow-sm hover:bg-colorPrimary hover:shadow-none border-2 border-colorPrimary hover:text-white transition-all duration-300;
+}
+
+.btn-outline {
+  @apply py-3 px-8 bg-colorPrimary text-white rounded-md shadow-sm hover:bg-white hover:shadow-none border-2 hover:border-colorPrimary hover:text-colorPrimary transition-all duration-300;
+}
