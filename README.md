@@ -7,7 +7,7 @@
 npm install tailwindcss
 ```
 
-### start project
+### Start project
 
 ```
 npm run dev
